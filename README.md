@@ -4,6 +4,8 @@ An experiment revealing significant vulnerabilities in AI text detection when co
 
 **Main result: 89% of AI-generated essays evaded detection after humanization.**
 
+**[View the interactive results →](https://nawagner.github.io/fool-em-once/)**
+
 Educators and institutions relying solely on detection tools should consider that while detection tools may be accurate at detecting results pasted directly from chatbots, they are easy to defeat with little effort using publicly available tools.
 
 ---
