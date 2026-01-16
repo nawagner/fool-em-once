@@ -1,1 +1,41 @@
 essay_id,detector,is_ai_detected,confidence,notes
+gemini-3-flash_hist-01,pangram,false,believe,fully human-written
+gemini-3-flash_hist-02,pangram,false,believe,fully human-written
+gemini-3-flash_hist-03,pangram,false,believe,fully human-written
+gemini-3-flash_hist-04,pangram,false,believe,fully human-written
+gemini-3-flash_hist-05,pangram,false,believe,fully human-written
+gemini-3-flash_lit-01,pangram,false,believe,fully human-written
+gemini-3-flash_lit-02,pangram,false,believe,fully human-written
+gemini-3-flash_lit-03,pangram,true,believe,moderately AI-assisted
+gemini-3-flash_lit-04,pangram,false,believe,fully human-written
+gemini-3-flash_lit-05,pangram,true,believe,moderately AI-assisted
+gemini-3-flash_pers-01,pangram,false,believe,fully human-written
+gemini-3-flash_pers-02,pangram,false,believe,fully human-written
+gemini-3-flash_pers-03,pangram,false,believe,fully human-written
+gemini-3-flash_pers-04,pangram,false,believe,fully human-written
+gemini-3-flash_pers-05,pangram,false,believe,fully human-written
+gemini-3-flash_sci-01,pangram,false,believe,fully human-written
+gemini-3-flash_sci-02,pangram,false,believe,fully human-written
+gemini-3-flash_sci-03,pangram,false,believe,fully human-written
+gemini-3-flash_sci-04,pangram,false,believe,fully human-written
+gemini-3-flash_sci-05,pangram,false,believe,fully human-written
+gpt-5.2_hist-01,pangram,false,believe,fully human-written
+gpt-5.2_hist-02,pangram,false,believe,fully human-written
+gpt-5.2_hist-03,pangram,false,believe,fully human-written
+gpt-5.2_hist-04,pangram,true,confident,mix of AI-generated and human-written
+gpt-5.2_hist-05,pangram,true,confident,mix of AI-generated and human-written
+gpt-5.2_lit-01,pangram,false,believe,fully human-written
+gpt-5.2_lit-02,pangram,false,believe,fully human-written
+gpt-5.2_lit-03,pangram,false,believe,fully human-written
+gpt-5.2_lit-04,pangram,true,confident,mix of AI-generated and human-written
+gpt-5.2_lit-05,pangram,true,confident,mix of AI-generated and human-written
+gpt-5.2_pers-01,pangram,false,believe,fully human-written
+gpt-5.2_pers-02,pangram,false,believe,fully human-written
+gpt-5.2_pers-03,pangram,false,believe,fully human-written
+gpt-5.2_pers-04,pangram,false,believe,fully human-written
+gpt-5.2_pers-05,pangram,false,believe,fully human-written
+gpt-5.2_sci-01,pangram,false,believe,fully human-written
+gpt-5.2_sci-02,pangram,false,believe,fully human-written
+gpt-5.2_sci-03,pangram,false,believe,fully human-written
+gpt-5.2_sci-04,pangram,false,believe,fully human-written
+gpt-5.2_sci-05,pangram,false,believe,fully human-written
