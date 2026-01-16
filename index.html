@@ -191,6 +191,95 @@
       animation: fadeInUp 0.8s ease-out 0.4s both;
     }
 
+    .hero-chart {
+      display: flex;
+      gap: 3rem;
+      justify-content: center;
+      align-items: flex-end;
+      margin: 3rem 0;
+      padding: 2rem 3rem;
+      background: rgba(26, 26, 29, 0.6);
+      border: 1px solid var(--border-subtle);
+      border-radius: 4px;
+      animation: fadeInUp 0.8s ease-out 0.25s both;
+    }
+
+    .chart-bar-group {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .chart-bar-container {
+      width: 80px;
+      height: 200px;
+      background: var(--bg-deep);
+      border: 1px solid var(--border-subtle);
+      border-radius: 4px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .chart-bar {
+      width: 100%;
+      border-radius: 2px 2px 0 0;
+      transition: height 1s ease-out;
+      position: relative;
+    }
+
+    .chart-bar.before {
+      background: linear-gradient(180deg, var(--rose-400), var(--rose-500));
+      height: 97%;
+      animation: growBar 1.2s ease-out 0.5s both;
+    }
+
+    .chart-bar.after {
+      background: linear-gradient(180deg, var(--emerald-400), var(--emerald-500));
+      height: 11%;
+      animation: growBar 1.2s ease-out 0.7s both;
+    }
+
+    @keyframes growBar {
+      from { height: 0; }
+    }
+
+    .chart-bar-value {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.75rem;
+      font-weight: 700;
+    }
+
+    .chart-bar-value.before { color: var(--rose-400); }
+    .chart-bar-value.after { color: var(--emerald-400); }
+
+    .chart-bar-label {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-muted);
+    }
+
+    .chart-arrow {
+      font-size: 2rem;
+      color: var(--amber-500);
+      margin-bottom: 5rem;
+      animation: fadeInUp 0.8s ease-out 0.6s both;
+    }
+
+    .chart-caption {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-top: 0.5rem;
+    }
+
     .hero-cta {
       display: flex;
       gap: 1rem;
@@ -994,6 +1083,26 @@
     <div class="hero-badge">Research Study</div>
     <div class="hero-stat">89%</div>
     <div class="hero-stat-label">Bypass Rate</div>
+
+    <div class="hero-chart">
+      <div class="chart-bar-group">
+        <div class="chart-bar-value before">97%</div>
+        <div class="chart-bar-container">
+          <div class="chart-bar before"></div>
+        </div>
+        <div class="chart-bar-label">Before</div>
+      </div>
+      <div class="chart-arrow">→</div>
+      <div class="chart-bar-group">
+        <div class="chart-bar-value after">11%</div>
+        <div class="chart-bar-container">
+          <div class="chart-bar after"></div>
+        </div>
+        <div class="chart-bar-label">After</div>
+      </div>
+    </div>
+    <div class="chart-caption">AI Detection Rate</div>
+
     <h1 class="hero-title">AI-Generated Essays Evade Detection After Humanization</h1>
     <p class="hero-subtitle">A study revealing significant vulnerabilities in AI text detection when confronted with commercial "humanization" tools.</p>
     <div class="hero-cta">
