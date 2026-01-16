@@ -6,9 +6,7 @@ gemini-3-flash_hist-04,pangram,false,believe,fully human-written
 gemini-3-flash_hist-05,pangram,false,believe,fully human-written
 gemini-3-flash_lit-01,pangram,false,believe,fully human-written
 gemini-3-flash_lit-02,pangram,false,believe,fully human-written
-gemini-3-flash_lit-03,pangram,true,believe,moderately AI-assisted
 gemini-3-flash_lit-04,pangram,false,believe,fully human-written
-gemini-3-flash_lit-05,pangram,true,believe,moderately AI-assisted
 gemini-3-flash_pers-01,pangram,false,believe,fully human-written
 gemini-3-flash_pers-02,pangram,false,believe,fully human-written
 gemini-3-flash_pers-03,pangram,false,believe,fully human-written
